@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(43, 71, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container{
+    color: rgb(245, 232, 217);
+}
+
+.digit{
+    font-size: 120px;
+    font-weight: bold;
+}
+.txt{
+    font-size: 40px;
+    font-weight: bold;
+}
+#btn-container{
+    text-align: center;
+    margin-top: 30px;
+}
+.btn{
+    padding: 7px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0px 10px;
+    border-radius: 6px;
+    color: white;
+    border: none;
+    
+}
+#start{
+    background-color: rgb(5, 150, 41);
+}
+#stop{
+    background-color: rgb(28, 28, 107);
+}
+#reset{
+    background-color: red;
+}
